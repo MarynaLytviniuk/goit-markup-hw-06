@@ -41,12 +41,65 @@
   </li>
 </ul>
 </address> 
+<button class="burger-btn" type="button">
+    <svg class="burger-icon" width="24" height="24">
+      <use href="./images/icons.svg#icon-burger"></use>
+    </svg>
+</button>
 </div> 
+<div class="mobile-menu">
+    <div class="mobile-menu-container">
+        <button type="button" class="modal-close">
+            <svg class="icon-close" width="8" height="8">
+                <use href="./images/icons.svg#close"></use>
+            </svg>
+        </button>
+        <nav class="mobile-menu-nav">
+            <a href="#" class="mobile-nav-link active">Studio</a>
+            <a href="#" class="mobile-nav-link">Portfolio</a>
+            <a href="#" class="mobile-nav-link">Contacts</a>
+        </nav>
+        <address class="mobile-contacts">
+            <a href="tel:+110001111111" class="mobile-phone">+11 (000) 111-11-11</a>
+            <a href="mailto:info@devstudio.com" class="mobile-email">info@devstudio.com</a>
+        </address>
+        <ul class="mobile-socials">
+            <li class="mobile-menu-item-soc">
+                <a class="icon-link">
+                    <svg class="icon-list" width="24" height="24">
+                        <use href="./images/icons.svg#instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-menu-item-soc">
+                <a class="icon-link">
+                    <svg class="icon-list" width="24" height="24">
+                        <use href="./images/icons.svg#twitter"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-menu-item-soc">
+                <a href="https://instagram.com" target="_blank" class="icon-link">
+                    <svg class="icon-list" width="24" height="24">
+                        <use href="./images/icons.svg#facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-menu-item-soc">
+                <a class="icon-link">
+                    <svg class="icon-list" width="24" height="24">
+                        <use href="./images/icons.svg#linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+ </div>
 </header> 
 <main>
     <!-- ======= Hero ====== -->
 <section class="hero">
-    <div class='container'>
+    <div class='container-hero'>
         <h1 class="hero-title">Effective Solutions 
             for Your Business
         </h1>
@@ -105,7 +158,7 @@
 
  <!-- ======= Section 3 ====== -->
  <section class="our-team">
-    <div class='container'>
+    <div class='container-ouer-team'>
         <h2 class="h-our-team">Our Team</h2>
         <ul class="list-our-team"> 
             <li class="mark-guerrero">
@@ -278,7 +331,7 @@
    
    <!-- ======= Section 4 ====== -->
 <section class="section-our-portfolio">
-    <div class="container">
+    <div class="container-our-portfolio">
         <h2 class="portfolio-title">Our Portfolio</h2>
         <ul class="portfolio-list">
             <li class="portfolio-item">
@@ -440,6 +493,7 @@
     </div>
     </footer>
     <!-- ======= Модальне вікно ====== -->
+
     <div class="backdrop is-open">
         <div class="modal">
             <button type="button" class="modal-close">
