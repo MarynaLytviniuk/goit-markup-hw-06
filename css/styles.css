@@ -912,8 +912,8 @@ img {
         margin: center;
     }
     
-.icon-link:hover,
-.icon-link:focus {
+.item-icon:hover,
+.item-icon:focus {
     background-color: #31d0aa;
     }   
 
