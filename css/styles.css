@@ -801,7 +801,7 @@ letter-spacing: 0.02em;
 
 @media screen and (min-width: 1158px) {
     .section-our-portfolio {
-        padding: 120px 0;
+        padding: 0 120px ;
         }
       
     .portfolio-list {
@@ -1029,11 +1029,15 @@ width: 288px;
         align-items: baseline;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
+        margin-left: 114px;
+        
     }
+
 
     .page-footer {
         text-align: center;
+        
     }
 
     .container-footer, .email-footer-wrapper {
@@ -1314,6 +1318,7 @@ width: 288px;
     }
     
     .button-form-submit{
+        position: absolute;
         border: none;
         padding: 16px 32px;
         min-width: 169px;
@@ -1327,7 +1332,7 @@ width: 288px;
         text-align: center;
         color: #fff;
         border-radius: 4px;
-        position: absolute;
+        
         bottom: 16px;
         left: 50%;
         cursor: pointer;
